@@ -1,0 +1,2 @@
+# comunikime
+Loja de Diversidades
