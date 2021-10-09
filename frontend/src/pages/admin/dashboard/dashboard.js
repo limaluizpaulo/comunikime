@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import Logo from '../../../assets/img/logo.png';
+import Logo from '../../../assets/img/diversidades.jpg';
 import MenuAdmin from '../../../components/menuAdmin';
 import Footer from '../../../components/footerAdmin';
 
@@ -43,7 +43,7 @@ export default function Dashboard() {
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={1} justify="center">  
-            <img src={Logo} alt="logo" />        
+            <img src={Logo} width="270"  alt="logo" />        
           </Grid>
           <Box pt={4}>
             <Footer />

@@ -19,7 +19,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Axios from 'axios';
 import { setNomeUsuario, login, setIdUsuario} from '../../../services/auth';
-import Logo from '../../../assets/img/logo.png'
+import Logo from '../../../assets/img/diversidades.jpg'
 
 function Copyright() {
   return (
@@ -109,7 +109,7 @@ export default function SignIn() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>        
-      <img src={Logo} alt="logo" width="270" height="100" />
+      <img src={Logo} alt="logo" width="270"  />
         <Avatar className={classes.avatar}>        
           <AccountCircleIcon />
         </Avatar>
