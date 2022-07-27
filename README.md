@@ -30,16 +30,16 @@ Esse projeto foi desenvolvido com a seguinte técnologias:
 systemctl start mongod.service
 
 # Clone o repositório
-git clone https://github.com/limaluizpaulo/comunikime/
+git clone https://github.com/limaluizpaulo/loja/
 
 # Entre no diretório
-cd comunikime/backend
+cd loja/backend
 
 # Instale as depedências
 npm install
 
 # Entre no diretório
-cd comunikime/frontend
+cd loja/frontend
 
 # Instale as depedências
 npm install
